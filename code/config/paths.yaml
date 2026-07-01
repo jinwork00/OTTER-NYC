@@ -1,0 +1,28 @@
+data_root: data
+
+raw:
+  floodnet: data/01_raw/floodnet
+  asos: data/01_raw/asos
+  dem: data/01_raw/dem
+  ccb: data/01_raw/ccb/catch_basins.parquet
+
+preprocessed:
+  floodnet: data/02_preprocessed/floodnet.parquet
+  precip: data/02_preprocessed/precip.parquet
+  cleaned_integrated: data/02_preprocessed/cleaned_integrated.parquet
+
+qc_events:
+  annotated_grid: data/03_qc_events/annotated_grid.parquet
+  events: data/03_qc_events/events.parquet
+  event_summary: data/03_qc_events/event_summary.parquet
+  qc_stats: data/03_qc_events/qc_stats.json
+  work_dir: outputs/qc
+
+static:
+  sensor_features: data/04_static/sensor_static_features.parquet
+
+metadata:
+  sensor_catalog: data/05_metadata/sensor_catalog.csv
+  asos_stations: data/05_metadata/asos_stations.csv
+  codebook: data/05_metadata/codebook.csv
+  manifest: data/05_metadata/manifest.csv

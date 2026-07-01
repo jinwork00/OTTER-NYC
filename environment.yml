@@ -1,0 +1,17 @@
+name: floodnet-nyc
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - pyarrow
+  - scikit-learn
+  - tqdm
+  - matplotlib
+  - pyproj
+  - rasterio
+  - pyyaml
+  - pip
+  - pip:
+      - torch

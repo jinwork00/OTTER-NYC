@@ -1,0 +1,4 @@
+filter_method: laplace
+sigma_n: 3.5
+sensor_limit_mm: 3000.0
+lookback_hours: 3.0
