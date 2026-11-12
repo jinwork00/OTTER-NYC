@@ -51,15 +51,6 @@ Rebuild the annotated training grid:
 python code/qc/build_annotated.py --force
 ```
 
-Train a baseline model:
-
-```bash
-python code/train/train.py --model mlp --loss mse --epochs 30
-```
-
-Training requires `data/04_static/sensor_static_features.parquet`, which must be
-generated locally because DEM-derived products are excluded from the public
-data archive.
 
 ## Data sources
 
